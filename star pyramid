@@ -1,0 +1,9 @@
+#this is a simple python code used for star pyramid generation
+#altering the codes doesn't make you a coder
+#developed by LEO JOY
+a=(int(input("Enter a number: ")))
+for i in range(0, a):
+  for j in range(0, i+1):
+    print("*",end="")
+  print("\r")
+print("Thank You")
